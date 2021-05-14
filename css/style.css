@@ -1,0 +1,137 @@
+
+                                  /* all elements */
+
+body{
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+h1{
+  font-weight: 800;
+}
+
+h2{
+  text-align: center;
+  font-weight: 800;
+  font-size: 3rem;
+  padding: 5%;
+
+}
+
+
+ul{
+  font-family: "Ubuntu";
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  line-height: 3rem;
+  color: white;
+}
+
+
+
+
+
+
+                                    /* navi */
+
+#navi{
+  width: 100%;
+
+
+  color: white;
+  text-align: center;
+  background-color: #06283b;
+}
+
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+
+.nav-item{
+  padding: 1rem;
+
+
+}
+.nav-link{
+  font-family: "Montserrat";
+  font-weight: 700;
+    font-size: 1rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+
+}
+
+                                 /* welcome */
+
+.welcome{
+  margin-top: 10%;
+
+
+}
+
+.container-fluid{
+padding: 3% 15% 7%;
+}
+
+
+
+/* about */
+
+#about{
+  background-color: #7c9f24;
+font-family: "Ubuntu";
+font-weight:bolder;
+padding: 5%;
+font-size: 2rem;
+
+}
+
+
+/* services */
+
+
+#services{
+  text-align: center;
+  padding: 5%;
+  background-color: #d2ced1;
+}
+
+/* background */
+#background{
+  padding: 5%;
+background-color: #326229;
+color: white;
+}
+
+/* contact us */
+
+#contact{
+  padding: 5%;
+
+}
+
+/* footer */
+#footer{text-align: center;
+padding: 3%;
+background-color: #06283b;
+color: white;
+}
+
+
+                                /* --smartphone-- */
+@media(max-width:1028px){
+
+  .tpic{
+  width: 80%;
+}
+#about{
+  text-align: center;
+}
+
+}
