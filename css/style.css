@@ -816,6 +816,16 @@ textarea.form-control {
   color: var(--text-muted);
 }
 
+.contact-info-text p a {
+  color: inherit;
+  text-decoration: none;
+  transition: var(--transition-fast);
+}
+
+.contact-info-text p a:hover {
+  color: var(--primary);
+}
+
 /* ==========================================================================
    Footer
    ========================================================================== */
