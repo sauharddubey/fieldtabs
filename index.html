@@ -1,331 +1,363 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 <head>
-
   <meta charset="utf-8">
-   <meta name = "description" content="We provide full services in Market Research and its respective areas." >
-  <meta name="keywords" content="FIELD TABS, fieldtabs, field tabs">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Field Tabs provides professional agricultural market research, farmer panel insights, retail audits, and crop monitoring across South Asia.">
+  <meta name="keywords" content="FIELD TABS, fieldtabs, field tabs, agricultural insights, agri market research, crop cutting experiments, farmers panel, retail audit, rural research">
   <meta name="author" content="Sauhard Dubey">
-  <!-- css bootstrap files -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-<link rel="stylesheet" href="css/style.css">
-
-
-  <!-- bootstrap scripts -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
   
-  <!-- fonticon files-->
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-  <!-- font files -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-  <!-- favicon -->
+  <!-- Google Fonts: Plus Jakarta Sans for Headers, Inter for Body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css?v=1.0.4">
+  
+  <!-- Custom JS -->
+  <script src="js/main.js" defer></script>
+  
+  <!-- Favicon -->
   <link rel="shortcut icon" href="favicon-2.ico">
-  <title>Field Tabs Marketing Solutions</title>
-
+  
+  <title>Field Tabs | Agricultural Market Research & Field Insights</title>
 </head>
-
 <body>
 
-  <!-- navigation bar -->
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#" class="logo-link" aria-label="Field Tabs Home">
+        <img src="images/logo.png" alt="Field Tabs Logo" class="logo-img">
+      </a>
+      
+      <button class="mobile-menu-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <nav class="nav-menu">
+        <a href="#" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#leadership" class="nav-link">Leadership</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#background" class="nav-link">Background</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <section id="navi">
+  <main>
+    <!-- Hero / Welcome Section -->
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-pill">
+            <span>Agricultural Insights &amp; Market Research | South Asia</span>
+          </div>
+          <h1 class="hero-title">Rural insights that scale</h1>
+          <p class="lead">Hi, I am Tarun. I help agribusinesses and crop science innovators transform. I work with teams to identify where field intelligence creates real value, design the right survey methodology, and deliver certified ground truths. From first principles to final deployment.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Partner with Us <i class="fas fa-arrow-right"></i></a>
+            <a href="#services" class="btn btn-secondary">Explore Services</a>
+          </div>
+        </div>
+        <div class="hero-image-container">
+          <img src="images/main_image.png" alt="Field Tabs agricultural insights dashboard mapping farm data, panel tracking, and crop cutting analytics" class="hero-img">
+        </div>
+      </div>
+    </section>
 
-    <div class="container-fluid">
+    <!-- Metrics Section -->
+    <section class="metrics-section">
+      <div class="container metrics-grid">
+        <div class="metric-card">
+          <div class="metric-number">25,000+</div>
+          <div class="metric-label">Farmers Panel Tracked</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-number">400+</div>
+          <div class="metric-label">Agri-Retailers Audited</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-number">15+</div>
+          <div class="metric-label">Years Field Experience</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-number">100%</div>
+          <div class="metric-label">Agri-Graduate Surveyors</div>
+        </div>
+      </div>
+    </section>
 
+    <!-- About Section -->
+    <section id="about" class="section alt-bg">
+      <div class="container about-section">
+        <div class="about-content">
+          <h2>About Us</h2>
+          <p class="lead">We provide full-service marketing research specializing in the agricultural sector. Our operations translate soil dynamics, crop health, and retail supply chains into actionable enterprise growth strategies.</p>
+          <ul class="about-features">
+            <li><strong>Farmers Panel Studies:</strong> Detailed longitudinal trackers measuring agronomical practices, product adaptation rates, and crop inputs.</li>
+            <li><strong>Market Mapping:</strong> Geographical and crop-specific quantification of agrochemical, seed, and farm machinery penetration.</li>
+            <li><strong>Retail Audits:</strong> Periodic assessments of rural agri-dealers to monitor stock levels, brand visibility, and commercial margins.</li>
+            <li><strong>Crop Monitoring:</strong> Precise crop cutting experiments (CCEs) and multi-spectral yield evaluations supporting top-tier crop insurers.</li>
+            <li><strong>Kisan Tele-Advisory:</strong> Fast feed-back systems and call center networks offering real-time agronomic guidance to farmer groups.</li>
+          </ul>
+        </div>
+        <div class="about-media">
+          <p class="about-quote">"Field agricultural research demands deep local trust, specific agronomic degrees, and rigorous validation. Field Tabs was built from the ground up to solve these three field execution challenges."</p>
+          <p class="about-quote-author">Tarun Dubey, Director</p>
+          <!-- Graphic placeholder (alt text: Field Tabs agronomists conducting field research and interview sessions with local farming communities) -->
+        </div>
+      </div>
+    </section>
 
-      <nav class="navbar navbar-expand-lg navbar-dark ">
+    <!-- Leadership Section -->
+    <section id="leadership" class="section">
+      <div class="container">
+        <div class="leadership-title-block">
+          <h2>Leadership & Domain Expertise</h2>
+          <p class="lead text-center" style="max-width: 800px; margin: 0 auto 50px;">Field Tabs is guided by seasoned agronomists and market research directors. Our leadership team brings decades of experience from the world's top crop science and agribusiness firms.</p>
+        </div>
+        
+        <div class="director-profile-grid">
+          <div class="director-image-card">
+            <img src="images/tarun_dubey.png" alt="Tarun Dubey, Director of Field Tabs" class="director-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="director-img-placeholder">
+              <i class="fas fa-user-tie"></i>
+              <span>[tarun_dubey.png]</span>
+            </div>
+          </div>
+          
+          <div class="director-bio-card">
+            <span class="director-role">Director & Founder</span>
+            <h3>Tarun Dubey</h3>
+            <p class="director-pitch">Tarun leads the operational vision and research design at Field Tabs. With a career spanning over 25 years, he possesses a deep mastery of agricultural sourcing, agrochemical marketing, and syndicated market research across South Asia.</p>
+            
+            <h4 class="career-title">Professional Background</h4>
+            <div class="career-timeline">
+              <div class="career-item">
+                <span class="career-company">Field Tabs</span>
+                <span class="career-duration">Jun 2017 – Present (9 yrs)</span>
+                <p class="career-desc">Director & Founder. Spearheading agricultural research panels, digital crop surveys, and custom CCE programs for enterprise partners.</p>
+              </div>
+              <div class="career-item">
+                <span class="career-company">Kynetec & GfK</span>
+                <span class="career-duration">Dec 2013 – Feb 2017 (3 yrs 3 mos)</span>
+                <p class="career-desc">Director of India Syndicated Services & Real Time Trackers. Managed regional agribusiness research trackers for the global leader in agricultural market intelligence.</p>
+              </div>
+              <div class="career-item">
+                <span class="career-company">Aditya Birla Group</span>
+                <span class="career-duration">Nov 2012 – Nov 2013 (1 yr 1 mo)</span>
+                <p class="career-desc">Assistant Vice President & Head of Agrochemicals Business. Led raw materials sourcing and strategic business development.</p>
+              </div>
+              <div class="career-item">
+                <span class="career-company">Bayer CropScience</span>
+                <span class="career-duration">Jan 2007 – Nov 2012 (5 yrs 11 mos)</span>
+                <p class="career-desc">Associate Zonal Manager & AGM (Marketing & Materials). Directed strategic raw/packaging material sourcing, localized seeds marketing campaigns, and regional crop protection sales.</p>
+              </div>
+              <div class="career-item">
+                <span class="career-company">Monsanto Company & BASF</span>
+                <span class="career-duration">Jan 1999 – Jan 2006 (7 yrs)</span>
+                <p class="career-desc">Sr. Product Development Manager & Area Sales Manager. Led national vegetable hybrid launches, distributor mapping, and direct farm level campaigns.</p>
+              </div>
+              <div class="career-item">
+                <span class="career-company">Pfizer</span>
+                <span class="career-duration">May 1995 – Jan 1997 (1 yr 9 mos)</span>
+                <p class="career-desc">Veterinary Service Officer. Managed veterinary medicine sales and localized feed supplement distribution channels.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-       <img src="images/imageedit_2_7883564334.png" style="opacity: 0.6;"alt="">
-    <a class="navbar-brand" href=""> Field Tabs</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <!-- Services Section -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="services-intro">
+          <h2>Core Solutions</h2>
+          <p class="lead">From precision agricultural mapping to call center feedback panels, we design customized field programs tailored to the modern agro-enterprise.</p>
+        </div>
+        <div class="services-grid">
+          <!-- Card 1 -->
+          <article class="service-card">
+            <div class="service-icon-wrapper">
+              <i class="fas fa-chart-line" aria-hidden="true"></i>
+            </div>
+            <h3>Farm Insights Services</h3>
+            <p>Full-scale market research tailored specifically to rural demographics. We track and contextualize local agronomical habits and seasonal crop inputs to solve growth bottlenecks.</p>
+            <a href="#contact" class="btn btn-secondary btn-block">Inquire Insights</a>
+          </article>
+          <!-- Card 2 -->
+          <article class="service-card">
+            <div class="service-icon-wrapper">
+              <i class="fas fa-tablet-alt" aria-hidden="true"></i>
+            </div>
+            <h3>Farm Data Collection</h3>
+            <p>Advanced primary field surveys powered by customized tablet applications. All surveyors have agriculture degrees and undergo rigorous field validation to ensure zero-fault reporting.</p>
+            <a href="#contact" class="btn btn-secondary btn-block">Request Credentials</a>
+          </article>
+          <!-- Card 3 -->
+          <article class="service-card">
+            <div class="service-icon-wrapper">
+              <i class="fas fa-headset" aria-hidden="true"></i>
+            </div>
+            <h3>Kisan Call Center</h3>
+            <p>Dedicated telephone support manned by certified agricultural experts. We provide localized agronomic advisory and capture rapid crop feedback across regional dialects.</p>
+            <a href="#contact" class="btn btn-secondary btn-block">Connect Advisory</a>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto ">
-            <li class="nav-item">
-              <a class="nav-link " href="">Home</a>
+    <!-- Background Section -->
+    <section id="background" class="section alt-bg">
+      <div class="container background-grid">
+        <div class="background-content">
+          <h2>Our Journey & Footprint</h2>
+          <div class="background-paragraphs">
+            <p>Field Tabs started its journey in 2010 with a small group of agronomists operating from our headquarters in New Delhi. Over the years, we have systematically expanded our field presence to encompass all agricultural corridors of India, Nepal, and South Asia.</p>
+            <p>Beginning as a dedicated field data collection partner for local agencies, we quickly earned a reputation for precision and strict quality standards. This support allowed us to pivot to complete consultative market mapping and crop insurance auditing.</p>
+            <p>Today, we integrate digital surveys, GPS tracking, and localized call-centers to verify every single interview, giving global agribusinesses absolute clarity over rural markets.</p>
+          </div>
+        </div>
+        <div class="methodology-timeline">
+          <div class="timeline-item">
+            <div class="timeline-year">2010</div>
+            <div class="timeline-title">Founding & Core Focus</div>
+            <div class="timeline-desc">Established offices in New Delhi. Handled large-scale paper-based census datasets for agri-input companies.</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2015</div>
+            <div class="timeline-title">Tablet & GPS Integration</div>
+            <div class="timeline-desc">Pioneered 100% digital data collections, integrating geographic tagging to verify remote interviews.</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2020</div>
+            <div class="timeline-title">South Asia Panel Extension</div>
+            <div class="timeline-desc">Expanded regular panel tracking systems, monitoring over 25,000 farmers and 400 retailers across major agro-climatic zones.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="contact-form-wrapper">
+          <h3>Contact Our Analysts</h3>
+          <p style="margin-bottom: 24px; font-size: 0.95rem;">Please provide details about your agricultural research requirements. Our team will contact you within 24 hours.</p>
+          
+          <div class="form-status"></div>
+          
+          <form id="contact-form" action="mailto:tarun@fieldtabs.in" method="GET" novalidate>
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="name">Your Name *</label>
+                <input type="text" id="name" class="form-control" placeholder="e.g. Rahul Sharma" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Business Email *</label>
+                <input type="email" id="email" class="form-control" placeholder="name@company.com" required>
+              </div>
+              <div class="form-group full-width">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" class="form-control" placeholder="e.g. Requesting Farmers Panel Deck">
+              </div>
+              <div class="form-group full-width">
+                <label for="message">Your Message *</label>
+                <textarea id="message" class="form-control" placeholder="Please outline your project scope, geography of interest, or advisory needs..." required></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Inquiry <i class="fas fa-paper-plane" aria-hidden="true"></i></button>
+          </form>
+        </div>
+        
+        <div class="contact-info-wrapper">
+          <div>
+            <h3 class="contact-info-title">Global Presence</h3>
+            <p>Our operational offices span key rural centers, coordinating research where decisions are made.</p>
+          </div>
+          <ul class="contact-info-list">
+            <li class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+              </div>
+              <div class="contact-info-text">
+                <h4>Headquarters</h4>
+                <p>Barakhamba Road, Connaught Place, New Delhi, 110001, India</p>
+              </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#about">About</a>
+            <li class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-phone" aria-hidden="true"></i>
+              </div>
+              <div class="contact-info-text">
+                <h4>Call Support</h4>
+                <p>+91 11 4154 8976</p>
+              </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#contact">Contact</a>
+            <li class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+              </div>
+              <div class="contact-info-text">
+                <h4>Business Operations</h4>
+                <p>contact@fieldtabs.com</p>
+              </div>
             </li>
           </ul>
         </div>
-      </nav>
-
-
-
-      <!-- welcome section -->
-      <div class="row">
-        <div class="col-lg-6 welcome">
-          <h1 style="line-height:1.5">Welcome To</h1> <br>
-          <h1>Field Tabs </h1>
-          <h2 style="font-size:2rem">Tracking Farmer's Field.</h2>
-        </div>
-        <div class="col-lg-6 ">
-          <img style="opacity: 0.6; padding-bottom: 5%" class="tpic" src="images/imageedit_1_7588223807.png" alt="pic missing">
-
-        </div>
-
       </div>
-    </div>
+    </section>
+  </main>
 
-  </section>
-
-  <!-- about us -->
-
-  <section id="about">
-
-    <i class="fas fa-address-card fa-3x" style="margin-left: 45%;"></i>
-    <br>
-
-
-    <h2>About Us</h2>
-    <p>
-      <b>We provide full services in Market Research and its respective areas.</b>
-    </p>
-
-    <ul>
-      <li>Farmers Panel Studies Helpful in getting Insights on various agronomical practices. </li>
-      <li>Market Mapping for Agrochemical, Seeds and Farm Machinery – We quantify markets by geography, brand and crops. </li>
-      <li>Retail Audits of agri-input retailers – We have capabilities to conduct retails audits for agrochemical and seeds. </li>
-      <li>Crop monitoring surveys – Conduct crop cutting experiments to support leading crop insurance companies. </li>
-      <li>Famers call centre – Have capability to get rapid feedback from the farmers on various products/concepts. Also provide advisory to farmers through specialized agri-experts on various crops. </li>
-      <li>Farm Data collection – Have strong team of experienced interviewers, having agriculture back ground. </li>
-    </ul>
-
-
-  </section>
-
-  <!-- services -->
-
-  <section id="services">
-
-    <i class="fas fa-briefcase fa-3x"></i>
-    <br>
-
-
-    <h2>Services</h2>
-
-    <div class="row" style="padding-top: 5%;">
-      <div class="pc col-lg-4 ">
-
-
-
-        <div class="card">
-          <div class="card-header" style="background: #6598c7;">
-
-            <i class="fas fa-poll-h fa-3x" style="padding: 3%" ;></i>
-            <br>
-
-            <h3>Farm Insights Services </h3>
-          </div>
-          <div class="card-body">
-
-            <p>Field tabs provides complete market research solutions to agriculture industry. We are well versed with the challenges and solutions faced during the farm research studies. </p>
-
-            <p style="padding-bottom: 20%;">We track more than 25,000 farmers, 400 agri-input retailers and 40 industry experts every year. </p>
-            <button type="button" class="btn btn-dark btn-block">Learn More</button>
-          </div>
+  <!-- Footer Section -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Field Tabs Logo" class="logo-img footer-logo-img">
         </div>
+        <p>Providing agribusinesses with certified ground truths and market intelligence across South Asia since 2010.</p>
       </div>
-
-
-      <div class="pc col-lg-4 ">
-        <div class="card">
-          <div class="card-header" style="background: #7c9f24;">
-            <i class="fas fa-database fa-3x"></i>
-            <br>
-
-            <h3>Farm Data Collecion Services </h3>
-          </div>
-          <div class="card-body">
-
-
-            <p style="padding-bottom: 19%;">Field Tabs team clearly understand the challenges faced during the farmer interviews, and have developed the techninequies to overcome those challenges. All Field Tabs interviewers have agriculture bac
-              ground and have sufficient
-              experience to interview farmers in different situations. </p>
-
-            <button type="button" class="btn btn-dark btn-block">Learn More</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="pc col-lg-4">
-        <div class="card">
-          <div class="card-footer" style="background: Gold;">
-            <i class="fas fa-headset fa-3x" style="padding: 3%;"></i>
-            <br>
-            <h3>Kissan Call Center</h3>
-          </div>
-          <div class="card-body">
-
-            <p>Our Farm Tele-Advisors at Kisan Call Centres have prescribed minimum academic qualification in the field of agriculture and allied areas with excellent communication skills in respective local language attend to the farmers’ calls. The
-              FTAs, although experts themselves, are considered as Level 1 (L1) support of Kisan Call Centres. </p>
-
-            <button type="button" class="btn btn-dark btn-block">Learn More</button>
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-
-
-  </section>
-
-
-  <!-- background -->
-
-  <section id="background">
-    <h2>Background</h2>
-    <p>Field Tabs started it's journey with a group of agriculturists in 2010 from Delhi head quarter and established it's footprints across India and South Asia. Field Tabs is the leading provider of agricultural market research services. </p>
-    <p>Field tabs provides complete market research solutions to agriculture industry. </p>
-    <p>Initially Field Tabs started with farmers’ data collection and agri –input market information compilation. After getting appreciations and support from client company established its identity in agriculture market research and consultancy.
-    </p>
-    <p>Agricultural Research has been one of the core areas of strength and interest for Field Tabs team. Having many domain experts on board since beginning, Field Tabs has been able to make a mark as a stalwart in Agriculture Research.</p>
-    <p>Field Tabs integrate farmers with latest technology to collect and analyse the farm information. It has very strong capabilities in online data collection through tablets and call centres. </p>
-
-
-  </section>
-
-  <!-- contact -->
-
-  <section id="contact">
-    <!--Section: Contact v.2-->
-
-
-    <!--Section heading-->
-    <i class="fas fa-phone fa-3x" style="margin-left: 45%;"></i>
-    <br>
-
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
-    <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-      a matter of hours to help you.</p>
-
-    <div class="row">
-
-      <!--Grid column-->
-      <div class="col-md-9 mb-md-0 mb-5">
-        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-          <!--Grid row-->
-          <div class="row">
-
-            <!--Grid column-->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input type="text" id="name" name="name" class="form-control">
-                <label for="name" class="">Your name</label>
-              </div>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input type="text" id="email" name="email" class="form-control">
-                <label for="email" class="">Your email</label>
-              </div>
-            </div>
-            <!--Grid column-->
-
-          </div>
-          <!--Grid row-->
-
-          <!--Grid row-->
-          <div class="row">
-            <div class="col-md-12">
-              <div class="md-form mb-0">
-                <input type="text" id="subject" name="subject" class="form-control">
-                <label for="subject" class="">Subject</label>
-              </div>
-            </div>
-          </div>
-          <!--Grid row-->
-
-          <!--Grid row-->
-          <div class="row">
-
-            <!--Grid column-->
-            <div class="col-md-12">
-
-              <div class="md-form">
-                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                <label for="message">Your message</label>
-              </div>
-
-            </div>
-          </div>
-          <!--Grid row-->
-
-        </form>
-
-        <div class="text-center text-md-left">
-          <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-        </div>
-        <div class="status"></div>
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-md-3 text-center">
-        <ul class="list-unstyled mb-0">
-          <li><i class="fas fa-map-marker-alt fa-2x"></i>
-            <p>San Francisco, CA 94126, USA</p>
-          </li>
-
-          <li><i class="fas fa-phone mt-4 fa-2x"></i>
-            <p>+ 01 234 567 89</p>
-          </li>
-
-          <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-            <p>contact@mdbootstrap.com</p>
-          </li>
+      <div class="footer-links-col">
+        <h4 class="footer-col-title">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#leadership">Leadership</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#background">Our Footprint</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
       </div>
-      <!--Grid column-->
-
+      <div class="footer-newsletter">
+        <h4 class="footer-col-title">Agricultural Briefings</h4>
+        <p>Subscribe to receive quarterly insights on crop health and agro-chemical supply trends.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing!'); this.reset();">
+          <input type="email" class="form-control" placeholder="Enter business email" required aria-label="Business Email for Newsletter">
+          <button type="submit" class="btn" aria-label="Subscribe"><i class="fas fa-paper-plane" aria-hidden="true"></i></button>
+        </form>
+      </div>
     </div>
-
-  </section>
-  <!--Section: Contact v.2-->
-
-  </section>
-
-  <!-- footer -->
-
-  <footer id="footer">
-    <a href="#"><i class="mp fab fa-twitter"></i></a>
-    <a href="#"><i class="mp fab fa-facebook"></i></a>
-    <a href="#"><i class="mp fab fa-instagram"></i></a>
-    <a href="#"><i class="mp fas fa-envelope"></i></a>
-    <p style="font-size: 1rem">© Copyright 2021 Field Tabs Marketing Solutions.Ltd</p>
-    <p style="font-size: 0.5rem">Devlopment Credit Sauhard Dubey</p>
-
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Field Tabs Marketing Solutions Ltd. All rights reserved.</p>
+      <p>Development Credit: <a href="https://github.com/SauhardDubey" target="_blank" rel="noopener">Sauhard Dubey</a></p>
+      <div class="footer-socials">
+        <a href="#" class="social-link" aria-label="Field Tabs on Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-link" aria-label="Field Tabs on Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-link" aria-label="Field Tabs on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
   </footer>
-  </section>
-
-
-
 
 </body>
-
 </html>
